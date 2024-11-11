@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Mulik Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/301fc4ee5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Aryan Mulik</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a skilled web developer, app developer, and UI/UX designer with a passion for creating seamless user experiences. With a strong foundation in coding and design, I specialize in developing responsive websites, intuitive mobile applications, and user-friendly interfaces. I focus on delivering high-quality solutions that meet both functional and aesthetic requirements. My goal is to combine technology and creativity to build innovative and engaging digital products.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>Acmegrade Full Stack Development Internship</li>
+                                <li><span>2022 </span><br>Web Development Intern at 2020</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - 26</span><br>Pursuing my BTech CSE from SIT</li>
+                                <li><span>2020 - 2023</span><br>Completed Diploma in CSE from BVJNIOT</li>
+                                <li><span>2020</span><br>Completed my School from VPMS</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------------services---------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>I offer comprehensive UI/UX design services that prioritize user-centered design, ensuring an intuitive and engaging experience. From wireframing to prototyping, I craft visually appealing and functional designs that meet your business goals. My approach combines creativity and usability, enhancing the overall user journey. Let me help transform your ideas into seamless, user-friendly interfaces that leave a lasting impact.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I specialize in creating responsive and visually stunning websites that provide an optimal user experience across all devices. With a focus on clean design and intuitive navigation, I build websites that are both functional and aesthetically pleasing. My designs are tailored to reflect your brand’s identity while ensuring fast load times and seamless interaction. Let me help you bring your vision to life with a website that stands out and drives results.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I design intuitive and engaging mobile apps that provide seamless user experiences. By focusing on user needs and interactions, I create apps that are both visually appealing and easy to navigate. My design process ensures a smooth, responsive experience across all platforms, while aligning with your brand and objectives. Let me help you develop an app that not only looks great but also functions flawlessly.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- --------------------portfolio---------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------------contact------------------------ -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aryann.mulik@gmil.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7559183784</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aryan.mulik.18?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/AryanMulik" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/aryanmulik_05/profilecard/?igsh=MTQ2aGR2Nm96bWlzNQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-mulik-9381872b3" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright<i class="fa-regular fa-copyright cp"></i>2024 All rights reserved | Made wtih <i class="fa-solid fa-heart heart"></i> by Aryan Mulik</p>
+    </div>
+ </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
